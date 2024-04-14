@@ -12,7 +12,11 @@ Project repo: https://github.com/
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n llmapp python=3.8 -y
+##conda create -n llmapp python=3.8 -y 
+
+#Gemini model was not working with this version, so deactivated and activated the below version and pip install requirements again
+
+conda create -n llmapp python=3.9 -y
 ```
 
 ```bash
